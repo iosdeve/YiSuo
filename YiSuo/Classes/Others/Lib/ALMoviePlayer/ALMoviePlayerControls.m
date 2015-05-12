@@ -711,8 +711,9 @@ static const CGFloat iPhoneScreenPortraitWidth = 320.f;
         //right side of bottom bar
         CGFloat fullscreenWidth = 0;
         CGFloat fullscreenHeight = fullscreenWidth;
-        //chenxin mark x多加了40
-        self.fullscreenButton.frame = CGRectMake(self.bottomBar.frame.size.width - paddingFromBezel - fullscreenWidth+40, self.barHeight/2 - fullscreenHeight/2, fullscreenWidth, fullscreenHeight);
+        //chenxin mark x少见 paddingFromBezel
+//        self.fullscreenButton.frame = CGRectMake(self.bottomBar.frame.size.width - paddingFromBezel - fullscreenWidth, self.barHeight/2 - fullscreenHeight/2, fullscreenWidth, fullscreenHeight);
+        self.fullscreenButton.frame = CGRectMake(self.bottomBar.frame.size.width  - fullscreenWidth, self.barHeight/2 - fullscreenHeight/2, fullscreenWidth, fullscreenHeight);
         self.airplayView.frame = CGRectMake(self.fullscreenButton.frame.origin.x - paddingBetweenButtons - airplayWidth, self.barHeight/2 - airplayHeight/2, airplayWidth, airplayHeight);
         //chenxin mark 修改播放进度条的长度
         self.timeRemainingLabel.frame = CGRectMake(self.fullscreenButton.frame.origin.x - paddingBetweenButtons - labelWidth, 0, labelWidth, self.barHeight);
