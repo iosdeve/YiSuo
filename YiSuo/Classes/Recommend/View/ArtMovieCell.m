@@ -32,9 +32,11 @@
         //create the controls
     ALMoviePlayerControls *movieControls = [[ALMoviePlayerControls alloc] initWithMoviePlayer:moviePlayerVC style:ALMoviePlayerControlsStyleDefault];
     //[movieControls setAdjustsFullscreenImage:NO];
-    [movieControls setBarColor:[UIColor lightGrayColor]];
+    //设置进度条背景颜色
+    [movieControls setBarColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.5]];
     [movieControls setTimeRemainingDecrements:YES];
-    //[movieControls setFadeDelay:2.0];
+    //设置进度条消失时间
+    [movieControls setFadeDelay:4.0];
     [movieControls setBarHeight:25.f];
     [moviePlayerVC setControls:movieControls];
     [self.artMovieView addSubview:moviePlayerVC.view];

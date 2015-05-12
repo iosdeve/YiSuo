@@ -310,13 +310,11 @@ static const CGFloat iPhoneScreenPortraitWidth = 320.f;
 # pragma mark - UIControl/Touch Events
 
 - (void)durationSliderTouchBegan:(UISlider *)slider {
-    MyLog(@"%s",__func__);
     [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(hideControls:) object:nil];
     [self.moviePlayer pause];
 }
 
 - (void)durationSliderTouchEnded:(UISlider *)slider {
-    MyLog(@"%s",__func__);
     [self.moviePlayer setCurrentPlaybackTime:floor(slider.value)];
     [self.moviePlayer play];
     [self performSelector:@selector(hideControls:) withObject:nil afterDelay:self.fadeDelay];
@@ -612,7 +610,6 @@ static const CGFloat iPhoneScreenPortraitWidth = 320.f;
     CGFloat duration = self.moviePlayer.duration;
     self.durationSlider.minimumValue = 0.f;
     self.durationSlider.maximumValue = duration;
-    MyLog(@"max %f",duration);
 }
 
 - (void)setTimeLabelValues:(double)currentTime totalTime:(double)totalTime {
