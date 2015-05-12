@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>68634021-3F8C-42E1-87AC-F55D95AEC151</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>YiSuo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E4A1997027CBAA202D9B23EF2D30DFC489B8C4B7</key>
 		<string>https://github.com/iosdeve/YiSuo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>YiSuo.xcodeproj/project.xcworkspace</string>
+	<string>YiSuo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E4A1997027CBAA202D9B23EF2D30DFC489B8C4B7</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/iosdeve/YiSuo.git</string>
@@ -28,6 +28,14 @@
 	<string>E4A1997027CBAA202D9B23EF2D30DFC489B8C4B7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4A1997027CBAA202D9B23EF2D30DFC489B8C4B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

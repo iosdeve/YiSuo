@@ -77,7 +77,7 @@
     parameters[@"grant_type"]=@"password";
     parameters[@"username"]=self.userName.text;
     parameters[@"password"]=self.userPwd.text;
-    [MBProgressHUD showMessage:@"Loading..."];
+    [MBProgressHUD showMessage:@"登录中..."];
     [HttpTool postURL:Login_UserToken parameter:parameters success:^(id responseObject) {
         UserToken *userToken=[UserToken objectWithKeyValues:responseObject];
         [MBProgressHUD hideHUD];
@@ -88,6 +88,7 @@
         
     } faile:^(NSError *error) {
         [MBProgressHUD hideHUD];
+        [MBProgressHUD showError:@"用户名或密码错误"];
         MyLog(@"error--%@",error);
     }];
 }

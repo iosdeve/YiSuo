@@ -96,10 +96,18 @@
 		847FBF1D1AFBB989006DDA24 /* ArtViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FBF1B1AFBB989006DDA24 /* ArtViewCell.m */; };
 		847FBF1E1AFBB989006DDA24 /* ArtViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847FBF1C1AFBB989006DDA24 /* ArtViewCell.xib */; };
 		847FBF211AFBC146006DDA24 /* ArtCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FBF201AFBC146006DDA24 /* ArtCellModel.m */; };
+		84856B761B01D8A8009AF1DC /* ArtMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84856B741B01D8A8009AF1DC /* ArtMovieCell.m */; };
+		84856B771B01D8A8009AF1DC /* ArtMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84856B751B01D8A8009AF1DC /* ArtMovieCell.xib */; };
+		84856B7B1B01D8DF009AF1DC /* ArtDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84856B791B01D8DF009AF1DC /* ArtDetailController.m */; };
+		84856B7C1B01D8DF009AF1DC /* ArtDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84856B7A1B01D8DF009AF1DC /* ArtDetailController.xib */; };
+		84856B8A1B01FC0D009AF1DC /* ALAirplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84856B831B01FC0D009AF1DC /* ALAirplayView.m */; };
+		84856B8B1B01FC0D009AF1DC /* ALButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84856B851B01FC0D009AF1DC /* ALButton.m */; };
+		84856B8C1B01FC0D009AF1DC /* ALMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84856B871B01FC0D009AF1DC /* ALMoviePlayerController.m */; };
+		84856B8D1B01FC0D009AF1DC /* ALMoviePlayerControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 84856B891B01FC0D009AF1DC /* ALMoviePlayerControls.m */; };
+		84856B8F1B01FC30009AF1DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84856B8E1B01FC30009AF1DC /* QuartzCore.framework */; };
+		84856B911B01FC42009AF1DC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84856B901B01FC42009AF1DC /* MediaPlayer.framework */; };
 		848D72511AFA60AC003233A3 /* SearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D72501AFA60AC003233A3 /* SearchTextField.m */; };
 		84FB85EB1AFF43B00009ACFB /* UserToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB85EA1AFF43B00009ACFB /* UserToken.m */; };
-		84FB85EE1AFF5D4B0009ACFB /* ArtDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB85ED1AFF5D4B0009ACFB /* ArtDetailController.m */; };
-		84FB85F01AFF5D8A0009ACFB /* ArtDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FB85EF1AFF5D8A0009ACFB /* ArtDetailController.xib */; };
 		84FB85F21AFF6C3D0009ACFB /* user_con.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FB85F11AFF6C3D0009ACFB /* user_con.png */; };
 /* End PBXBuildFile section */
 
@@ -283,13 +291,26 @@
 		847FBF1C1AFBB989006DDA24 /* ArtViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtViewCell.xib; sourceTree = "<group>"; };
 		847FBF1F1AFBC146006DDA24 /* ArtCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtCellModel.h; sourceTree = "<group>"; };
 		847FBF201AFBC146006DDA24 /* ArtCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtCellModel.m; sourceTree = "<group>"; };
+		84856B731B01D8A8009AF1DC /* ArtMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtMovieCell.h; sourceTree = "<group>"; };
+		84856B741B01D8A8009AF1DC /* ArtMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtMovieCell.m; sourceTree = "<group>"; };
+		84856B751B01D8A8009AF1DC /* ArtMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtMovieCell.xib; sourceTree = "<group>"; };
+		84856B781B01D8DF009AF1DC /* ArtDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDetailController.h; sourceTree = "<group>"; };
+		84856B791B01D8DF009AF1DC /* ArtDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDetailController.m; sourceTree = "<group>"; };
+		84856B7A1B01D8DF009AF1DC /* ArtDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtDetailController.xib; sourceTree = "<group>"; };
+		84856B821B01FC0D009AF1DC /* ALAirplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAirplayView.h; sourceTree = "<group>"; };
+		84856B831B01FC0D009AF1DC /* ALAirplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAirplayView.m; sourceTree = "<group>"; };
+		84856B841B01FC0D009AF1DC /* ALButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALButton.h; sourceTree = "<group>"; };
+		84856B851B01FC0D009AF1DC /* ALButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALButton.m; sourceTree = "<group>"; };
+		84856B861B01FC0D009AF1DC /* ALMoviePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoviePlayerController.h; sourceTree = "<group>"; };
+		84856B871B01FC0D009AF1DC /* ALMoviePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoviePlayerController.m; sourceTree = "<group>"; };
+		84856B881B01FC0D009AF1DC /* ALMoviePlayerControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoviePlayerControls.h; sourceTree = "<group>"; };
+		84856B891B01FC0D009AF1DC /* ALMoviePlayerControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoviePlayerControls.m; sourceTree = "<group>"; };
+		84856B8E1B01FC30009AF1DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84856B901B01FC42009AF1DC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		848D724F1AFA60AC003233A3 /* SearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTextField.h; sourceTree = "<group>"; };
 		848D72501AFA60AC003233A3 /* SearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTextField.m; sourceTree = "<group>"; };
 		84FB85E91AFF43B00009ACFB /* UserToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserToken.h; sourceTree = "<group>"; };
 		84FB85EA1AFF43B00009ACFB /* UserToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserToken.m; sourceTree = "<group>"; };
-		84FB85EC1AFF5D4B0009ACFB /* ArtDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDetailController.h; sourceTree = "<group>"; };
-		84FB85ED1AFF5D4B0009ACFB /* ArtDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDetailController.m; sourceTree = "<group>"; };
-		84FB85EF1AFF5D8A0009ACFB /* ArtDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtDetailController.xib; sourceTree = "<group>"; };
 		84FB85F11AFF6C3D0009ACFB /* user_con.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_con.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -298,6 +319,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84856B911B01FC42009AF1DC /* MediaPlayer.framework in Frameworks */,
+				84856B8F1B01FC30009AF1DC /* QuartzCore.framework in Frameworks */,
 				8467A0141AECC30F00F2955B /* UIKit.framework in Frameworks */,
 				8467A0121AECC30800F2955B /* Foundation.framework in Frameworks */,
 				8467A0101AECC2E600F2955B /* CoreGraphics.framework in Frameworks */,
@@ -584,6 +607,7 @@
 		84679F681AECC29800F2955B /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				84856B811B01FC0D009AF1DC /* ALMoviePlayer */,
 				84679F691AECC29800F2955B /* AFNetworking */,
 				84679F7D1AECC29800F2955B /* MBProgressHUD */,
 				84679F831AECC29800F2955B /* MJExtension */,
@@ -748,9 +772,9 @@
 			children = (
 				8467A0201AECC85300F2955B /* RecommendController.h */,
 				8467A0211AECC85300F2955B /* RecommendController.m */,
-				84FB85EC1AFF5D4B0009ACFB /* ArtDetailController.h */,
-				84FB85ED1AFF5D4B0009ACFB /* ArtDetailController.m */,
-				84FB85EF1AFF5D8A0009ACFB /* ArtDetailController.xib */,
+				84856B781B01D8DF009AF1DC /* ArtDetailController.h */,
+				84856B791B01D8DF009AF1DC /* ArtDetailController.m */,
+				84856B7A1B01D8DF009AF1DC /* ArtDetailController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -767,6 +791,9 @@
 		84679FD31AECC29900F2955B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84856B731B01D8A8009AF1DC /* ArtMovieCell.h */,
+				84856B741B01D8A8009AF1DC /* ArtMovieCell.m */,
+				84856B751B01D8A8009AF1DC /* ArtMovieCell.xib */,
 				848D724F1AFA60AC003233A3 /* SearchTextField.h */,
 				848D72501AFA60AC003233A3 /* SearchTextField.m */,
 				847FBF1A1AFBB989006DDA24 /* ArtViewCell.h */,
@@ -779,6 +806,8 @@
 		8467A0151AECC34A00F2955B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84856B901B01FC42009AF1DC /* MediaPlayer.framework */,
+				84856B8E1B01FC30009AF1DC /* QuartzCore.framework */,
 				8467A0131AECC30F00F2955B /* UIKit.framework */,
 				8467A0111AECC30800F2955B /* Foundation.framework */,
 				8467A00F1AECC2E600F2955B /* CoreGraphics.framework */,
@@ -848,6 +877,21 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		84856B811B01FC0D009AF1DC /* ALMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				84856B821B01FC0D009AF1DC /* ALAirplayView.h */,
+				84856B831B01FC0D009AF1DC /* ALAirplayView.m */,
+				84856B841B01FC0D009AF1DC /* ALButton.h */,
+				84856B851B01FC0D009AF1DC /* ALButton.m */,
+				84856B861B01FC0D009AF1DC /* ALMoviePlayerController.h */,
+				84856B871B01FC0D009AF1DC /* ALMoviePlayerController.m */,
+				84856B881B01FC0D009AF1DC /* ALMoviePlayerControls.h */,
+				84856B891B01FC0D009AF1DC /* ALMoviePlayerControls.m */,
+			);
+			path = ALMoviePlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -931,12 +975,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FB85F01AFF5D8A0009ACFB /* ArtDetailController.xib in Resources */,
 				84681CCC1AF921640039C815 /* FindPasswordController.xib in Resources */,
+				84856B771B01D8A8009AF1DC /* ArtMovieCell.xib in Resources */,
 				84679FF31AECC29900F2955B /* MJPhotoBrowser.bundle in Resources */,
 				84FB85F21AFF6C3D0009ACFB /* user_con.png in Resources */,
 				84681CBD1AF9029C0039C815 /* RegistController.xib in Resources */,
 				84679FFA1AECC29900F2955B /* MJRefresh.bundle in Resources */,
+				84856B7C1B01D8DF009AF1DC /* ArtDetailController.xib in Resources */,
 				84679FE71AECC29900F2955B /* MBProgressHUD.bundle in Resources */,
 				847FBF1E1AFBB989006DDA24 /* ArtViewCell.xib in Resources */,
 				84681CC21AF9128E0039C815 /* VerifyCodeController.xib in Resources */,
@@ -971,7 +1016,6 @@
 				84679FFD1AECC29900F2955B /* MJRefreshFooterView.m in Sources */,
 				8467A0001AECC29900F2955B /* NSData+ImageContentType.m in Sources */,
 				84679FE51AECC29900F2955B /* AFURLSessionManager.m in Sources */,
-				84FB85EE1AFF5D4B0009ACFB /* ArtDetailController.m in Sources */,
 				84679FE21AECC29900F2955B /* AFURLConnectionOperation.m in Sources */,
 				847FBF211AFBC146006DDA24 /* ArtCellModel.m in Sources */,
 				84679FFB1AECC29900F2955B /* MJRefreshBaseView.m in Sources */,
@@ -986,8 +1030,10 @@
 				84681CD01AF924F70039C815 /* ChangePasswordController.m in Sources */,
 				84681CC11AF9128E0039C815 /* VerifyCodeController.m in Sources */,
 				8467A0011AECC29900F2955B /* SDImageCache.m in Sources */,
+				84856B8C1B01FC0D009AF1DC /* ALMoviePlayerController.m in Sources */,
 				84679FDD1AECC29900F2955B /* AFHTTPRequestOperation.m in Sources */,
 				8467A0031AECC29900F2955B /* SDWebImageDecoder.m in Sources */,
+				84856B8A1B01FC0D009AF1DC /* ALAirplayView.m in Sources */,
 				84679FD71AECC29900F2955B /* NSDate+Extra.m in Sources */,
 				84679FDE1AECC29900F2955B /* AFHTTPRequestOperationManager.m in Sources */,
 				8467A0041AECC29900F2955B /* SDWebImageDownloader.m in Sources */,
@@ -1010,13 +1056,16 @@
 				84679FFE1AECC29900F2955B /* MJRefreshHeaderView.m in Sources */,
 				846BD2761AECF5AA00D50EC1 /* CustomTextField.m in Sources */,
 				84679FD81AECC29900F2955B /* UIBarButtonItem+Custom.m in Sources */,
+				84856B761B01D8A8009AF1DC /* ArtMovieCell.m in Sources */,
 				846BD2721AECF41300D50EC1 /* LoginController.m in Sources */,
 				847FBF1D1AFBB989006DDA24 /* ArtViewCell.m in Sources */,
+				84856B8D1B01FC0D009AF1DC /* ALMoviePlayerControls.m in Sources */,
 				84679FF81AECC29900F2955B /* MJPhotoView.m in Sources */,
 				8467A0071AECC29900F2955B /* SDWebImagePrefetcher.m in Sources */,
 				84679FE11AECC29900F2955B /* AFSecurityPolicy.m in Sources */,
 				8467A0251AECD02000F2955B /* CustomTabBarController.m in Sources */,
 				84679FF11AECC29900F2955B /* NSObject+MJMember.m in Sources */,
+				84856B8B1B01FC0D009AF1DC /* ALButton.m in Sources */,
 				8467A0091AECC29900F2955B /* UIImage+GIF.m in Sources */,
 				84679FEB1AECC29900F2955B /* MJMember.m in Sources */,
 				84FB85EB1AFF43B00009ACFB /* UserToken.m in Sources */,
@@ -1028,6 +1077,7 @@
 				84681CCB1AF921640039C815 /* FindPasswordController.m in Sources */,
 				84679FF71AECC29900F2955B /* MJPhotoToolbar.m in Sources */,
 				8467A0051AECC29900F2955B /* SDWebImageDownloaderOperation.m in Sources */,
+				84856B7B1B01D8DF009AF1DC /* ArtDetailController.m in Sources */,
 				846F18C71AF9C01D005CB41A /* CommonUtil.m in Sources */,
 				84679FDC1AECC29900F2955B /* CustomNavigationController.m in Sources */,
 				84679FE31AECC29900F2955B /* AFURLRequestSerialization.m in Sources */,

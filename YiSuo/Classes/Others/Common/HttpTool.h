@@ -23,6 +23,16 @@ typedef void(^FaileBlock)(NSError *error);
 +(void) postURL:(NSString *) url parameter:(NSDictionary *) parameter success:(SuccessBlock) success faile:(FaileBlock) faile;
 
 /**
+ *  封装POST请求提交的数据，提交到服务器
+ *
+ *  @param url       服务器到url地址
+ *  @param parameter post的参数
+ *  @param success   成功时调用的block
+ *  @param faile     失败时调用的block
+ */
++(void) postURL:(NSString *) url parameter:(NSDictionary *) parameter successUnknowSerialier:(SuccessBlock) success faile:(FaileBlock) faile;
+
+/**
  *  封装GET请求提交的数据，提交到服务器
  *
  *  @param url       服务器到url地址

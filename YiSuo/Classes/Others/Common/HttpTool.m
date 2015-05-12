@@ -40,6 +40,26 @@
  *  @param success   成功时调用的block
  *  @param faile     失败时调用的block
  */
++(void)postURL:(NSString *)url parameter:(NSDictionary *)parameter successUnknowSerialier:(SuccessBlock)success faile:(FaileBlock)faile{
+    AFHTTPRequestOperationManager *requestManager=[AFHTTPRequestOperationManager manager];
+    requestManager.requestSerializer.timeoutInterval=20.0f;
+    requestManager.responseSerializer=[AFHTTPResponseSerializer serializer];
+    [requestManager POST:url parameters:parameter success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        success(responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        faile(error);
+    }];
+    
+}
+
+/**
+ *  封装POST请求提交的数据，提交到服务器
+ *
+ *  @param url       服务器到url地址
+ *  @param parameter post的参数
+ *  @param success   成功时调用的block
+ *  @param faile     失败时调用的block
+ */
 +(void)getURL:(NSString *)url parameter:(NSDictionary *)parameter success:(void (^)(id))success faile:(void (^)(NSError *))faile{
     AFHTTPRequestOperationManager *requestManager=[AFHTTPRequestOperationManager manager];
     requestManager.responseSerializer=[AFJSONResponseSerializer serializer];
