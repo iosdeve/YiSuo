@@ -58,10 +58,14 @@ static NSString *const ID = @"artCell";
     flowLayout.itemSize=CGSizeMake(cellHW, cellHW);
     flowLayout.minimumLineSpacing=CellLineMargin;
     flowLayout.minimumInteritemSpacing=CellLineMargin;
+    //collection view底部空出一部分距离，防止tabBar遮挡
+    flowLayout.sectionInset=UIEdgeInsetsMake(0, 0, 54, 0);
     UICollectionView *collectionView=[[UICollectionView alloc] initWithFrame:collectViewFrame collectionViewLayout:flowLayout];
     collectionView.dataSource=self;
     collectionView.delegate=self;
     collectionView.backgroundColor=MyColor(32, 67, 117);
+    //设置高度自动伸缩
+    collectionView.autoresizingMask=UIViewAutoresizingFlexibleHeight;
     [collectionView registerNib:[UINib nibWithNibName:@"ArtViewCell" bundle:nil] forCellWithReuseIdentifier:ID];
     [self.view addSubview:collectionView];
     self.collectionView=collectionView;
@@ -94,7 +98,9 @@ static NSString *const ID = @"artCell";
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     ArtViewCell *cell=(ArtViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    MyLog(@"%@",NSStringFromCGRect(cell.frame));
+    MyLog(@"cell frame:%@",NSStringFromCGRect(cell.frame));
+    MyLog(@"View frame:%@",NSStringFromCGRect(self.view.frame));
+    MyLog(@"collectionView frame:%@",NSStringFromCGRect(self.collectionView.frame));
     ArtDetailController *artDetailVC=[[ArtDetailController alloc] init];
     [self.navigationController pushViewController:artDetailVC animated:YES];
     
