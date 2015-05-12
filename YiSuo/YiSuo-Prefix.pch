@@ -1,0 +1,36 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+#import "UIImage+Custom.h"
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue]>=7.0)
+//是否4英寸
+#define is4Inch [UIScreen mainScreen].bounds.size.height==568
+//是否4.7英寸
+#define is47Inch [UIScreen mainScreen].bounds.size.height==667
+//是否5.5英寸
+#define is55Inch [UIScreen mainScreen].bounds.size.height==736
+//快速生成RGB颜色
+#define MyColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//沙盒中Document的路径
+#define DocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+//全局背景颜色
+#define GlobalBg MyColor(226,226,226)
+// 3.自定义Log
+#ifdef DEBUG
+#define MyLog(...) NSLog(__VA_ARGS__)
+#else
+#define MyLog(...)
+#endif

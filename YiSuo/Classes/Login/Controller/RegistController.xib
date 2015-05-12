@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistController">
+            <connections>
+                <outlet property="nextStepBtn" destination="PrE-lP-eWV" id="OYO-dX-eg8"/>
+                <outlet property="phoheNum" destination="BxX-LF-3Hy" id="Agm-U2-pN9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XJ-Wz-8ai">
+                    <rect key="frame" x="45" y="75" width="51" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.3411764705882353" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BxX-LF-3Hy" customClass="CustomTextField">
+                    <rect key="frame" x="104" y="75" width="171" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="wMN-6a-Rdf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PrE-lP-eWV">
+                    <rect key="frame" x="45" y="142" width="230" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="7rQ-bY-io2"/>
+                    </constraints>
+                    <state key="normal" title="下一步">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="BxX-LF-3Hy" firstAttribute="height" secondItem="8XJ-Wz-8ai" secondAttribute="height" id="4Za-29-bHE"/>
+                <constraint firstItem="8XJ-Wz-8ai" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="45" id="5R9-Wo-k3U"/>
+                <constraint firstItem="BxX-LF-3Hy" firstAttribute="leading" secondItem="8XJ-Wz-8ai" secondAttribute="trailing" constant="8" id="6yy-G8-9nA"/>
+                <constraint firstItem="BxX-LF-3Hy" firstAttribute="top" secondItem="8XJ-Wz-8ai" secondAttribute="top" id="LdR-nK-m22"/>
+                <constraint firstItem="PrE-lP-eWV" firstAttribute="top" secondItem="BxX-LF-3Hy" secondAttribute="bottom" constant="32" id="NCL-fQ-g7c"/>
+                <constraint firstItem="BxX-LF-3Hy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="mFJ-Py-X22"/>
+                <constraint firstAttribute="trailing" secondItem="BxX-LF-3Hy" secondAttribute="trailing" constant="45" id="maL-YJ-l80"/>
+                <constraint firstAttribute="trailing" secondItem="PrE-lP-eWV" secondAttribute="trailing" constant="45" id="qeZ-kF-34W"/>
+                <constraint firstItem="PrE-lP-eWV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="45" id="tfF-nQ-Viw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
