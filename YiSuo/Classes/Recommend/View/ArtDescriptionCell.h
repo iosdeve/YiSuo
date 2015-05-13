@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ArtDescriptionCellFrame;
 
 @interface ArtDescriptionCell : UITableViewCell
+
+@property(nonatomic, strong) ArtDescriptionCellFrame *cellFrame;
 
 @end

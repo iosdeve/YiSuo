@@ -7,7 +7,7 @@
 // OAuth网络请求相关参数
 
 
-#define ServerHost @"http://192.168.1.102:8080/"
+#define ServerHost @"http://192.168.235.160:8080/"
 //检查手机号码是否已经被注册
 #define RegistCheckPhoneNum [NSString stringWithFormat:@"%@%@",ServerHost,@"client/user/add/1.mapi"]
 //检查验证码是否有效

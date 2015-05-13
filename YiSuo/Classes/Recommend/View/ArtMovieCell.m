@@ -42,7 +42,7 @@
     [self.artMovieView addSubview:moviePlayerVC.view];
     self.moviePlayerVC=moviePlayerVC;
 //
-    [moviePlayerVC setContentURL:[NSURL URLWithString:@"http://192.168.1.102:8080/upload/videos/2015/4/11/6d5c61ab-5095-4f8d-a809-e2cf63f3a671_1.mp4"]];
+    [moviePlayerVC setContentURL:[NSURL URLWithString:@"http://192.168.235.160:8080/upload/videos/2015/4/11/48ec861d-2d71-428f-ba5d-fa47805cb4e8_1.mp4"]];
 //    UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickMoive:)];
 //    [self.artMovieView addGestureRecognizer:tap];
 }
