@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		843C098B1B0254F30014D891 /* ArtDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C098A1B0254F30014D891 /* ArtDescriptionCell.m */; };
-		845E0A171B02F38B005158DE /* ArtDescriptionCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E0A161B02F38B005158DE /* ArtDescriptionCellFrame.m */; };
 		845E0A1A1B02F5D1005158DE /* ArtDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E0A191B02F5D1005158DE /* ArtDetail.m */; };
 		845E0A1D1B030DE4005158DE /* ArtDescriptTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E0A1C1B030DE4005158DE /* ArtDescriptTitle.m */; };
 		8460CF131AFC96890077F243 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8460CF111AFC96890077F243 /* 1.jpg */; };
@@ -97,6 +96,9 @@
 		846BD2731AECF41300D50EC1 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BD2711AECF41300D50EC1 /* LoginController.xib */; };
 		846BD2761AECF5AA00D50EC1 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BD2751AECF5AA00D50EC1 /* CustomTextField.m */; };
 		846F18C71AF9C01D005CB41A /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F18C61AF9C01D005CB41A /* CommonUtil.m */; };
+		8475ADF01B036BCA0082E762 /* ArtCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475ADEE1B036BCA0082E762 /* ArtCommentCell.m */; };
+		8475ADF11B036BCA0082E762 /* ArtCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8475ADEF1B036BCA0082E762 /* ArtCommentCell.xib */; };
+		8475ADF41B0391D70082E762 /* ArtDescriptionCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475ADF31B0391D70082E762 /* ArtDescriptionCellFrame.m */; };
 		847FBF1D1AFBB989006DDA24 /* ArtViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FBF1B1AFBB989006DDA24 /* ArtViewCell.m */; };
 		847FBF1E1AFBB989006DDA24 /* ArtViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847FBF1C1AFBB989006DDA24 /* ArtViewCell.xib */; };
 		847FBF211AFBC146006DDA24 /* ArtCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FBF201AFBC146006DDA24 /* ArtCellModel.m */; };
@@ -128,8 +130,6 @@
 /* Begin PBXFileReference section */
 		843C09891B0254F30014D891 /* ArtDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDescriptionCell.h; sourceTree = "<group>"; };
 		843C098A1B0254F30014D891 /* ArtDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDescriptionCell.m; sourceTree = "<group>"; };
-		845E0A151B02F38B005158DE /* ArtDescriptionCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDescriptionCellFrame.h; sourceTree = "<group>"; };
-		845E0A161B02F38B005158DE /* ArtDescriptionCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDescriptionCellFrame.m; sourceTree = "<group>"; };
 		845E0A181B02F5D1005158DE /* ArtDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDetail.h; sourceTree = "<group>"; };
 		845E0A191B02F5D1005158DE /* ArtDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDetail.m; sourceTree = "<group>"; };
 		845E0A1B1B030DE4005158DE /* ArtDescriptTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDescriptTitle.h; sourceTree = "<group>"; };
@@ -298,6 +298,11 @@
 		846BD2751AECF5AA00D50EC1 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		846F18C51AF9C01D005CB41A /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
 		846F18C61AF9C01D005CB41A /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		8475ADED1B036BCA0082E762 /* ArtCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtCommentCell.h; sourceTree = "<group>"; };
+		8475ADEE1B036BCA0082E762 /* ArtCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtCommentCell.m; sourceTree = "<group>"; };
+		8475ADEF1B036BCA0082E762 /* ArtCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtCommentCell.xib; sourceTree = "<group>"; };
+		8475ADF21B0391D70082E762 /* ArtDescriptionCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDescriptionCellFrame.h; sourceTree = "<group>"; };
+		8475ADF31B0391D70082E762 /* ArtDescriptionCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDescriptionCellFrame.m; sourceTree = "<group>"; };
 		847FBF1A1AFBB989006DDA24 /* ArtViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtViewCell.h; sourceTree = "<group>"; };
 		847FBF1B1AFBB989006DDA24 /* ArtViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtViewCell.m; sourceTree = "<group>"; };
 		847FBF1C1AFBB989006DDA24 /* ArtViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtViewCell.xib; sourceTree = "<group>"; };
@@ -794,6 +799,8 @@
 		84679FD21AECC29900F2955B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8475ADF21B0391D70082E762 /* ArtDescriptionCellFrame.h */,
+				8475ADF31B0391D70082E762 /* ArtDescriptionCellFrame.m */,
 				847FBF1F1AFBC146006DDA24 /* ArtCellModel.h */,
 				847FBF201AFBC146006DDA24 /* ArtCellModel.m */,
 				845E0A181B02F5D1005158DE /* ArtDetail.h */,
@@ -817,8 +824,9 @@
 				847FBF1C1AFBB989006DDA24 /* ArtViewCell.xib */,
 				843C09891B0254F30014D891 /* ArtDescriptionCell.h */,
 				843C098A1B0254F30014D891 /* ArtDescriptionCell.m */,
-				845E0A151B02F38B005158DE /* ArtDescriptionCellFrame.h */,
-				845E0A161B02F38B005158DE /* ArtDescriptionCellFrame.m */,
+				8475ADED1B036BCA0082E762 /* ArtCommentCell.h */,
+				8475ADEE1B036BCA0082E762 /* ArtCommentCell.m */,
+				8475ADEF1B036BCA0082E762 /* ArtCommentCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1009,6 +1017,7 @@
 				84679F291AECAB8C00F2955B /* Images.xcassets in Resources */,
 				8460CF141AFC96890077F243 /* 2.jpg in Resources */,
 				8460CF131AFC96890077F243 /* 1.jpg in Resources */,
+				8475ADF11B036BCA0082E762 /* ArtCommentCell.xib in Resources */,
 				84681CD11AF924F70039C815 /* ChangePasswordController.xib in Resources */,
 				84681CC71AF91C150039C815 /* RegistInfoController.xib in Resources */,
 			);
@@ -1039,7 +1048,6 @@
 				84679FE21AECC29900F2955B /* AFURLConnectionOperation.m in Sources */,
 				847FBF211AFBC146006DDA24 /* ArtCellModel.m in Sources */,
 				843C098B1B0254F30014D891 /* ArtDescriptionCell.m in Sources */,
-				845E0A171B02F38B005158DE /* ArtDescriptionCellFrame.m in Sources */,
 				84679FFB1AECC29900F2955B /* MJRefreshBaseView.m in Sources */,
 				84679FF21AECC29900F2955B /* MJPhoto.m in Sources */,
 				84679FF51AECC29900F2955B /* MJPhotoLoadingView.m in Sources */,
@@ -1065,6 +1073,7 @@
 				8468106A1AEE67200025FD16 /* ThirdPartyLoginController.m in Sources */,
 				8467A00A1AECC29900F2955B /* UIImage+MultiFormat.m in Sources */,
 				84679FE81AECC29900F2955B /* MBProgressHUD.m in Sources */,
+				8475ADF01B036BCA0082E762 /* ArtCommentCell.m in Sources */,
 				845E0A1D1B030DE4005158DE /* ArtDescriptTitle.m in Sources */,
 				8467A00B1AECC29900F2955B /* UIImage+WebP.m in Sources */,
 				84679FEA1AECC29900F2955B /* MJIvar.m in Sources */,
@@ -1102,6 +1111,7 @@
 				84679FF71AECC29900F2955B /* MJPhotoToolbar.m in Sources */,
 				8467A0051AECC29900F2955B /* SDWebImageDownloaderOperation.m in Sources */,
 				84856B7B1B01D8DF009AF1DC /* ArtDetailController.m in Sources */,
+				8475ADF41B0391D70082E762 /* ArtDescriptionCellFrame.m in Sources */,
 				846F18C71AF9C01D005CB41A /* CommonUtil.m in Sources */,
 				84679FDC1AECC29900F2955B /* CustomNavigationController.m in Sources */,
 				84679FE31AECC29900F2955B /* AFURLRequestSerialization.m in Sources */,
